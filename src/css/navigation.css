@@ -1,0 +1,12 @@
+.navBar {
+  background-color:#d7ceb2;
+  height:5.5%;
+  width:100%;
+  position: fixed;
+}
+#topNavBar {
+  top:0;
+}
+#botNavBar {
+  bottom:0;
+}
