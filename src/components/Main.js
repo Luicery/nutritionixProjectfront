@@ -9,6 +9,7 @@ import {
 } from "react-router-dom"
 import Navigation from "./Navigation.js"
 import Home from "./Home.js"
+import Test from "./Test.js"
 function Main() {
   return(
     <div>
