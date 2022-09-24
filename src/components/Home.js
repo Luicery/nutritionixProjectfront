@@ -26,8 +26,7 @@ function Home() {
       <img id="fork" src={cutlery}/>
       <img id="knife" src={cutlery}/>
       <h1 id="SUPATITLE">NUTRITIONIX</h1>
-      <animated.h1 onHover={() => setFlip(!flip)} style={{flyout}} id="initalCalc" class="calculateButton">Calculate Your Nutrition!</animated.h1>
-      <animated.h1 onHover={() => setFlip(!flip)} style={{flyin}} id="finalCalc" class="calculateButton">Calculate Your Nutrition!</animated.h1>
+      <a href="/calculate" onHover={() => setFlip(!flip)} style={{flyout}} id="initalCalc" class="calculateButton">Calculate Your Nutrition!</a>
     </div>
   )
 }

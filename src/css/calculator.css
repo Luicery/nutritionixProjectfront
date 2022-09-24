@@ -1,0 +1,11 @@
+#perServe, #perHundred {
+  list-style-type: none;
+}
+.customIngredientLabel {
+  display:inline-block;
+  width:20%;
+  font-size:1em;
+}
+.customIngredientInput {
+  text-align:right;
+}
